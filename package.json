@@ -1,0 +1,15 @@
+{
+  "name": "extensionchrome",
+  "version": "1.0.0",
+  "description": "extetion chrome",
+  "main": "index.js",
+  "scripts": {
+    "test": "none"
+  },
+  "keywords": [
+    "chrome",
+    "extention"
+  ],
+  "author": "Yves, YAS, Appexfy",
+  "license": "ISC"
+}

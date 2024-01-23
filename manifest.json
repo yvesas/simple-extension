@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "version": "0.0.1",
+  "name": "Simple Extension",
+  "description": "Simple",
+  "author": "Yves",
+  "permissions": ["activeTab", "scripting", "tabs", "storage"],
+  "action": {
+    "default_title": "Simple_Extension",
+    "default_popup": "popup/index.html",
+    "default_icon": "assets/icon_128.png"
+  },
+  "content_scripts": [
+    {
+      "js": ["scripts/content.js"],
+      "matches": ["<all_urls>"],
+      "run_at" : "document_end"
+    }
+  ]
+}
